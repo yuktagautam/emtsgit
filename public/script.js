@@ -74,7 +74,7 @@ async function verifyNumber(checkoutPhoneNumber){
 if(phoneNumberForm){
   phoneNumberForm.addEventListener('submit',function(e){
     e.preventDefault()
-    var checkoutNo=checkoutNumber.value
+    var checkoutNo="91"+checkoutNumber.value
     const checkoutPhoneNumber=parseInt(checkoutNo);
     verifyNumber(checkoutPhoneNumber)
   })
