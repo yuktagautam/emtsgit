@@ -35,13 +35,10 @@
  ![Screenshot (20)](https://user-images.githubusercontent.com/43185824/70031940-6b8dec00-15d2-11ea-971a-cc6284cac18e.png)
  
  * Message as received by host when a new visitor checks in
- 
+![rsz_img-6377](https://user-images.githubusercontent.com/43185824/70035877-b3644180-15d9-11ea-8635-1a51f3f2a037.png)
 
-
-
-
- 
  * Email as received by host when a new visitor checks in
+ ![rsz_img-6379](https://user-images.githubusercontent.com/43185824/70035901-c119c700-15d9-11ea-866c-0416d8d665bb.png)
  
  2) Same visitor cannot check in without checkout.
  ![Screenshot (23)](https://user-images.githubusercontent.com/43185824/70032051-a4c65c00-15d2-11ea-920a-2885a180462a.png)
@@ -53,13 +50,14 @@
  ![Screenshot (25)](https://user-images.githubusercontent.com/43185824/70032060-a7c14c80-15d2-11ea-8037-22dae3a6df36.png)
  
  * OTP message sent to Visitor 
-
+ ![rsz_img-6376](https://user-images.githubusercontent.com/43185824/70035868-afd0ba80-15d9-11ea-8ba0-ef2ee46ac5b6.png)
  
  5) If the user doen't enter correct OTP.
   ![Screenshot (26)](https://user-images.githubusercontent.com/43185824/70032061-a98b1000-15d2-11ea-9aab-98f27527ddd7.png)
  
  
  6) After User has successfully checked out he receives mail as shown below
+ ![rsz_img-6381](https://user-images.githubusercontent.com/43185824/70035891-ba8b4f80-15d9-11ea-9719-c29c9ad52137.png)
  
  7)Dashboard view
  
@@ -69,6 +67,10 @@
  [Demo](https://entrymanagementwebsite.herokuapp.com)
  
  ## Future Enhancements
+
+
+
+
  
  
  
