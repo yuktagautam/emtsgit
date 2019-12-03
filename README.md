@@ -36,21 +36,34 @@
  
  * Message as received by host when a new visitor checks in
  
+
+
+
+
+ 
  * Email as received by host when a new visitor checks in
  
  2) Same visitor cannot check in without checkout.
+ ![Screenshot (23)](https://user-images.githubusercontent.com/43185824/70032051-a4c65c00-15d2-11ea-920a-2885a180462a.png)
  
  3) If a visitor who hasn't checked in tries to check out.
+ ![Screenshot (24)](https://user-images.githubusercontent.com/43185824/70032056-a6901f80-15d2-11ea-9fe2-afd221c342cd.png)
  
  4) On finding a valid visitor doing check out.
+ ![Screenshot (25)](https://user-images.githubusercontent.com/43185824/70032060-a7c14c80-15d2-11ea-8037-22dae3a6df36.png)
  
  * OTP message sent to Visitor 
+
  
  5) If the user doen't enter correct OTP.
+  ![Screenshot (26)](https://user-images.githubusercontent.com/43185824/70032061-a98b1000-15d2-11ea-9aab-98f27527ddd7.png)
+ 
  
  6) After User has successfully checked out he receives mail as shown below
  
  7)Dashboard view
+ 
+![Screenshot (27)](https://user-images.githubusercontent.com/43185824/70032064-aabc3d00-15d2-11ea-8645-fd6e01c5b634.png)
  
  
  [Demo](https://entrymanagementwebsite.herokuapp.com)
