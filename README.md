@@ -67,7 +67,9 @@
  [Demo](https://entrymanagementwebsite.herokuapp.com)
  
  ## Future Enhancements
-
+* An admin panel can be built from where only he can see the dashboard and also handle the database entries
+* This system can be created into an app using react native through which host can also be informed in advance of the meeting
+* User interface can be improved 
 
 
 
