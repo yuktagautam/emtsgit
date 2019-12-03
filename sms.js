@@ -8,13 +8,12 @@ const nexmo = new Nexmo({
 module.exports = (to, smsBoolean, visitorHostInformation, otp) => {
     var text;
     if (smsBoolean) {
-         text = ` Hello ${visitorHostInformation.hostName}!
-                       You have a Visitor.Below are the details of the visitor-
-                       Name - ${visitorHostInformation.visitorName}
-                       Email - ${visitorHostInformation.visitorEmail}
-                       Phone - ${visitorHostInformation.visitorPhone}
-                       Checkin Time - ${visitorHostInformation.checkInTime}
-        `
+         text = `Hello ${visitorHostInformation.hostName}!
+You have a Visitor.Below are the details of the visitor-
+Name - ${visitorHostInformation.visitorName}
+Email - ${visitorHostInformation.visitorEmail}
+Phone - ${visitorHostInformation.visitorPhone}
+Checkin Time - ${visitorHostInformation.checkInTime}`
     } else {
          text = `Your 6 digit OTP is ${otp}`
     }
