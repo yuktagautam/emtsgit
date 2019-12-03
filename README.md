@@ -32,6 +32,7 @@
  
  ## Working
  1) A new Visitor checks in.
+ ![Screenshot (20)](https://user-images.githubusercontent.com/43185824/70031940-6b8dec00-15d2-11ea-971a-cc6284cac18e.png)
  
  * Message as received by host when a new visitor checks in
  
