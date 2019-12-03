@@ -64,7 +64,7 @@
 ![Screenshot (27)](https://user-images.githubusercontent.com/43185824/70032064-aabc3d00-15d2-11ea-8645-fd6e01c5b634.png)
  
  
- [Demo](https://entrymanagementwebsite.herokuapp.com)
+# [Demo](https://entrymanagementwebsite.herokuapp.com)
  
  ## Future Enhancements
 * An admin panel can be built from where only he can see the dashboard and also handle the database entries
