@@ -54,7 +54,7 @@ var subject,text,html;
  Check-in time - ${visitorHostInformation.checkInTime}
  Check-out time - ${visitorHostInformation.checkOutTime}
  Host name - ${visitorHostInformation.hostName}
- Address visited - ${visitorHostInformation.officAddress}
+ Address visited - ${visitorHostInformation.officeAddress}
    `
     html=`
    <b>Hope you had a good time ${visitorHostInformation.visitorName}!</b>
@@ -76,7 +76,7 @@ var subject,text,html;
 <td>Host Name</td><td>-</td><td>${visitorHostInformation.hostName}</td>
 </tr>
 <tr>
-<td>Address Visited</td><td>-</td><td>${visitorHostInformation.officAddress}</td>
+<td>Address Visited</td><td>-</td><td>${visitorHostInformation.officeAddress}</td>
 </tr>
 </table>
    `
