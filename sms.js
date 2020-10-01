@@ -1,10 +1,10 @@
 const Nexmo = require('nexmo');
 
 const nexmo = new Nexmo({
-    apiKey: 'e802dea8',
-    apiSecret: 'XySCf2gSsuJeB05a',
+    apiKey: API_KEY,
+    apiSecret: API_SECRET,
 });
-
+// insert your nexmo credentials here
 module.exports = (to, smsBoolean, visitorHostInformation, otp) => {
     var text;
     if (smsBoolean) {
@@ -17,6 +17,6 @@ Checkin Time - ${visitorHostInformation.checkInTime}`
     } else {
          text = `Your 6 digit OTP is ${otp}`
     }
-    const from = 919711545082;
+    const from = MOBILE_NUMBER;
     nexmo.message.sendSms(from, to, text)
 }
