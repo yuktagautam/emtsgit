@@ -1,6 +1,6 @@
 const mongoose=require("mongoose");
 const validator=require("validator");
-mongoose.connect("mongodb+srv://admin:admin@cluster0-nre88.mongodb.net/EntryManagement?retryWrites=true&w=majority",{useNewUrlParser:true,
+mongoose.connect(DB_LINK,{useNewUrlParser:true,
 useCreateIndex:true,useUnifiedTopology:true,useFindAndModify: false}).then(()=>{
     console.log("User DB Connected")
 }).catch((err)=>{
